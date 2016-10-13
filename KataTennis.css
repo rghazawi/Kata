@@ -1,0 +1,12 @@
+.formContainer {
+  max-width:300px;
+  padding:20px;
+  border: 2px solid #bce8f1;
+  margin: 10px auto;
+}
+.btn-info {
+  width:180px;
+} 
+#showResult {
+  font-size:16px;
+}

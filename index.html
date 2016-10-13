@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Kata Tennis</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<link href="KataTennis.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="formContainer">
+ <div class="alert alert-info alert-dismissable" style="display:none">
+    <button type="button" class="close"  aria-hidden="true" onclick="$('.alert').hide()">&times;</button>
+	<p id="showResult" class="text-center"></p>
+</div>
+  <form>
+    <div class="form-group">
+        <label>Enter Player 1 Name</label>
+        <input type="text" class="form-control" name="Player1" id="Player1" />
+    </div>
+    <div class="form-group">
+        <label>Enter Player 2 Name</label>
+        <input type="text" class="form-control" name="Player2" id="Player2" />
+    </div>
+    <div class="form-group">
+        <label>Enter Player 1 Score</label>
+        <input type="number" class="form-control" name="score1" id="score1" />
+    </div>
+    <div class="form-group">
+        <label>Enter Player 2 Score</label>
+        <input type="number" class="form-control" name="score2" id="score2" />
+    </div>
+    <div class="text-center">
+      <button type="button" id="getResult" class="btn btn-info">Result</button>
+    </div>
+   </form>
+  
+ <script src="KataTennis.js"></script>
+</body>
+</html>
